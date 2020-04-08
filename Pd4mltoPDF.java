@@ -19,19 +19,9 @@ public class HtmlToPDF {
         try {
             HtmlToPDF htp = new HtmlToPDF();
 
-            String url1 = "http://cosmocg.hoptest.haier.net/cosmocg/finance/advancePayment/customerDetails/salesBillZC?transferCargoUuid=5154c2a1-2556-427a-a2e1-0599905f3563";
-            String url2 = "http://cosmocg.hoptest.haier.net/cosmocg/finance/advancePayment/deliveryBill?type=2&paymentUuid=39293D5A3AB34E7FBB68C3A14324D9E7";
-            String url3 = "http://cosmocg.hoptest.haier.net/cosmocg/finance/advancePayment/deliveryBill?type=2&paymentUuid=F10D53B95D654DA1AB813FFE7B44211D";
-            String url4 = "http://cosmocg.hoptest.haier.net/cosmocg/finance/advancePayment/deliveryBill?type=2&paymentUuid=F10D53B95D654DA1AB813FFE7B44211D";
-            String destPath1 = "E:\\Desktop/pd4ml1.pdf";
-            String destPath2 = "E:\\Desktop/pd4ml2.pdf";
-            String destPath3 = "E:\\Desktop/pd4ml3.pdf";
-            String destPath0 = "E:\\Desktop/pd4ml0.pdf";
-            String destPath4 = "E:\\Desktop/pd4ml4.pdf";
-            htp.doConversion(url1, destPath1);
-            htp.doConversion(url2, destPath2);
-            htp.doConversion(url3, destPath3);
-            htp.doConversion(url4, destPath4);
+            String url = "测试网址";
+            String destPath = "生成的pdf要存放的位置";
+            htp.doConversion(url, destPath);
 
         } catch (Exception e) {
             e.printStackTrace();
