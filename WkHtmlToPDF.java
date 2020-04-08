@@ -78,21 +78,9 @@ public class WkHtmlToPDF {
         public static void main(String[] args) {
             long startTime = System.currentTimeMillis();   //获取开始时间
 
-            String url0 = "file:///E:/Desktop/提货单.html";
-            String url1 = "http://cosmocg.hoptest.haier.net/cosmocg/finance/advancePayment/customerDetails/salesBillZC?transferCargoUuid=5154c2a1-2556-427a-a2e1-0599905f3563";
-            String url2 = "http://cosmocg.hoptest.haier.net/cosmocg/finance/advancePayment/deliveryBill?type=2&paymentUuid=39293D5A3AB34E7FBB68C3A14324D9E7";
-            String url3 = "http://cosmocg.hoptest.haier.net/cosmocg/finance/advancePayment/deliveryBill?type=2&paymentUuid=F10D53B95D654DA1AB813FFE7B44211D";
-            String url4 = "http://cosmocg.hoptest.haier.net/cosmocg/finance/advancePayment/deliveryBill?type=2&paymentUuid=F10D53B95D654DA1AB813FFE7B44211D";
-            String destPath0 = "E:\\Desktop/wkhtmltopdf0.pdf";
-            String destPath1 = "E:\\Desktop/wkhtmltopdf1.pdf";
-            String destPath2 = "E:\\Desktop/wkhtmltopdf2.pdf";
-            String destPath3 = "E:\\Desktop/wkhtmltopdf3.pdf";
-            String destPath4 = "E:\\Desktop/wkhtmltopdf4.pdf";
-            WkHtmlToPDF.convert(url0, destPath0);
-//            WkHtmlToPDF.convert(url1, destPath1);
-//            WkHtmlToPDF.convert(url2, destPath2);
-//            WkHtmlToPDF.convert(url3, destPath3);
-//            WkHtmlToPDF.convert(url4, destPath4);
+            String url = "测试url";
+            String destPath = "生成的pdf存放的位置";
+            WkHtmlToPDF.convert(url, destPath);
 
             long endTime = System.currentTimeMillis();
             System.out.println("\n程序运行时间： "+(endTime-startTime)+"ms");
