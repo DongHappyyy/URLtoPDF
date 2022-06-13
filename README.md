@@ -1,5 +1,6 @@
 # URLtoPDF
 
-使用pd4ml工具和wkhtmltopdf工具将url转成pdf
+Convert url to pdf with the help of "pd4ml" and "wkhtmltopdf" tools
 
-需要的pd4ml工具包：链接: https://pan.baidu.com/s/1BbKiInFLS-mAMQ6WbjYuKA 提取码: 8ecg 
+"pd4ml" tool kit：
+  link: https://pan.baidu.com/s/1BbKiInFLS-mAMQ6WbjYuKA code: 8ecg 
